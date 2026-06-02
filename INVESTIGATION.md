@@ -216,7 +216,7 @@ Tests were used as a final validation step, not during incremental edits.
 ### Residual references Copilot missed
 None.
 A workspace-wide search in VS Code (Ctrl+Shift+F) for:
-customer_id
+user_id
 events_per_user
 total_value_per_user
 user_prefix
