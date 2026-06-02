@@ -10,7 +10,7 @@ def to_jsonl(events):
             json.dumps(
                 {
                     "schema": SCHEMA_VERSION,
-                    "user_id": event.user_id,
+                    "customer_id": event.customer_id,
                     "event_type": event.event_type,
                     "timestamp": event.timestamp,
                     "value": event.value,
