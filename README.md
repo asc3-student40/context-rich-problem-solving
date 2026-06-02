@@ -46,6 +46,6 @@ raw dict
   -> enrichment.enrich           (src/services/enrichment.py)
   -> export.to_jsonl             (src/pipeline/export.py)
 
-reporting.events_per_user        (src/services/reporting.py)
+reporting.events_per_customer    (src/services/reporting.py)
   consumes lists of Event objects produced by the pipeline above
 ```

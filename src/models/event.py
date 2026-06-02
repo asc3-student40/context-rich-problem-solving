@@ -4,7 +4,7 @@ from typing import Optional
 
 @dataclass
 class Event:
-    user_id: str
+    customer_id: str
     event_type: str
     timestamp: str
     value: float = 0.0
