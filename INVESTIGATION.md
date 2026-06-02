@@ -121,7 +121,7 @@ DEFAULT_FLUSH_INTERVAL_SECONDS
 
 Only SCHEMA_VERSION is used in the pipeline (export.py), while the others are unused in the observed flow.
 
-Conlusion:
+Conclusion:
 Copilot recognized the dependency, but it under-described its broader purpose as an infra configuration module
 
 
